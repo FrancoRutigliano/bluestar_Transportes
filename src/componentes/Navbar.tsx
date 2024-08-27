@@ -3,7 +3,7 @@ import icon from '../assets/blue_star_icon.png'
 export const Navbar = () => {
   return (
     <nav className='bg-red-200 flex justify-between'>
-        <div>
+        <div >
             <img src={icon} alt="BLUE STAR" className='w-20 bg-blue-500' />
         </div>
         <div className='bg-green-200 flex items-center lg:w-[600px]'>
