@@ -1,11 +1,13 @@
 import { Navbar } from "../componentes/Navbar"
-import { FooterPage } from "../componentes/"
+import { Footer } from "../componentes/Footer"
+import { Header } from "../componentes/Header"
 
 export const Home = () => {
   return (
     <>
-        {/* <Navbar/> */}
-        <FooterPage/>
+        <Navbar/>
+        <Header/>
+        {/* <Footer/> */}
     </>
   )
 }
