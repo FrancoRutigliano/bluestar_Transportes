@@ -6,8 +6,8 @@ export const Navbar = () => {
         <div >
             <img src={icon} alt="BLUE STAR" className='w-20 ' />
         </div>
-        <div className=' flex items-center lg:w-[600px]'>
-            <ul className='flex items-center w-2/3 justify-between   '>
+        <div className=' flex items-center lg:w-2/3 '>
+            <ul className='flex items-center w-2/3 justify-evenly text-white font-inter font-bold ml-32 text-lg   '>
                 <li><a href="#">Inicio</a></li>
                 <li><a href="#">Clientes</a></li>
                 <li><a href="#">Nosotros</a></li>
