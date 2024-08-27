@@ -6,6 +6,9 @@ export default {
   ],
   theme: {
     extend: {
+      screens: {
+        // 'first': 
+      },
       fontFamily:{
         inter: [ "Inter", 'sans-serif']
       },
