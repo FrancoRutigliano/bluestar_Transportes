@@ -4,7 +4,7 @@ export const Navbar = () => {
   return (
     <nav className='flex justify-between bg-white/20 fixed top-0 left-0 w-full z-50 '>
         <div >
-            <img src={icon} alt="BLUE STAR" className='w-20 ' />
+            <img src={icon} alt="BLUE STAR" className='w-20 ml-10 ' />
         </div>
         <div className=' flex items-center lg:w-2/3 '>
             <ul className='flex items-center w-2/3 justify-evenly text-white font-inter font-medium ml-32 text-lg   '>
