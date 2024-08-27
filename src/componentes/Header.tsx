@@ -3,7 +3,7 @@ import empleado from '../assets/Empleado.jpg'
 export const Header = () => {
     return (
       <div
-        className="relative w-full h-screen bg-cover bg-center "
+        className="relative w-full h-screen bg-cover  "
         style={{ backgroundImage:  `url(${empleado})`}}
       >
         <div className="absolute inset-0 bg-gradient-to-t from-azul to-transparent"></div>
