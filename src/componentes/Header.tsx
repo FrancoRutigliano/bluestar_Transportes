@@ -14,12 +14,12 @@ export const Header = () => {
       //   </div>
       // </div>
       <>
- <div className="relative w-full h-screen overflow-hidden">
+ <div className=" relative w-full h-screen overflow-hidden">
   <img
     src={empleado}
     alt=""
     //  className="w-full h-full object-cover object-center transform lg:scale-100"
-    className="w-full h-full object-cover transform scale-130 object-[calc(100%+12.5rem)_center] sm:object-[calc(100%+8rem)_center] lg:object-[calc(100%+5rem)_center] sm:scale-100 lg:scale-140 sm:object-center lg:object-center "
+    className=" w-full h-full object-cover transform scale-130 object-[calc(100%+12.5rem)_center] sm:object-[calc(100%+8rem)_center] lg:object-[calc(100%+5rem)_center] sm:scale-100 lg:scale-140 sm:object-center lg:object-center xl:object-top "
   />
   <div className="absolute inset-0 bg-gradient-to-t from-azul to-transparent"></div>
   <div className="absolute top-48 lg:top-42 xl:top-36 left-4 lg:left-8 flex flex-col text-white items-start  z-10 " >
