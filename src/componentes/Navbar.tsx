@@ -2,12 +2,12 @@ import icon from '../assets/blue_star_icon.png'
 
 export const Navbar = () => {
   return (
-    <nav className='flex justify-between bg-white/40 fixed top-0 left-0 w-full z-50 '>
+    <nav className='flex justify-between bg-white/20 fixed top-0 left-0 w-full z-50 '>
         <div >
             <img src={icon} alt="BLUE STAR" className='w-20 ' />
         </div>
         <div className=' flex items-center lg:w-2/3 '>
-            <ul className='flex items-center w-2/3 justify-evenly text-white font-inter font-bold ml-32 text-lg   '>
+            <ul className='flex items-center w-2/3 justify-evenly text-white font-inter font-medium ml-32 text-lg   '>
                 <li><a href="#">Inicio</a></li>
                 <li><a href="#">Clientes</a></li>
                 <li><a href="#">Nosotros</a></li>
