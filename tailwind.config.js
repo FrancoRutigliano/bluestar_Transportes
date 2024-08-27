@@ -6,11 +6,8 @@ export default {
   ],
   theme: {
     extend: {
-      screens: {
-        // 'first': 
-      },
       fontFamily:{
-        inter: [ "Inter", 'sans-serif']
+        poppins: [ "Poppins", 'sans-serif']
       },
       colors:{
         'azul': '#0102FA'
