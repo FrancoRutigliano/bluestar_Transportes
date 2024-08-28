@@ -6,12 +6,14 @@ export default {
   ],
   theme: {
     extend: {
+      
       fontFamily:{
         poppins: [ "Poppins", 'sans-serif']
       },
       colors:{
         'azul': '#0102FA'
-      }
+      },
+      
     },
   },
   plugins: [],
