@@ -7,7 +7,7 @@
 *{
     font-family: "Poppins", sans-serif;
 }
-@keyframes marquee {
+/* @keyframes marquee {
     0% {
       transform: translateX(0%);
     }
@@ -18,5 +18,5 @@
   
   .animate-marquee {
     animation: marquee 5s linear infinite;
-  }
+  } */
   
