@@ -2,7 +2,7 @@ import paqueteria from '../assets/paqueteria.jpg'
 
 export const Packaging = () => {
   return (
-    <section className="h-screen  flex">
+    <section className="h-screen flex">
         
         <div className=' w-1/2 flex justify-center items-center px-10'>
             <img src={paqueteria} alt="" className='' />
