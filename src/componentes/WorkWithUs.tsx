@@ -28,7 +28,8 @@ export const WorkWithUs = () => {
         </div>
         <div className='flex flex-col items-center justify-center text-center'>
             <img src={deposito} alt="" className='lg:w-1/3 lg:p-5' />
-             <p  className='font-medium lg:text-xl'>Servicio de depósito</p>   
+             <p  className='font-medium lg:text-xl'>Servicio de depósito</p> 
+               
             <p>Servicio de depósito y almacenamiento</p>
         </div>
         <div className='flex flex-col items-center justify-center text-center'>
