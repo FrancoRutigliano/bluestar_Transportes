@@ -1,0 +1,7 @@
+.custom-gallery .image-gallery-slide img {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover; /* Cubrir todo el contenedor manteniendo la relación de aspecto */
+    
+  }
+  

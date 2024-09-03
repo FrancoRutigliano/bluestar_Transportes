@@ -1,20 +1,30 @@
-import empleado from '../assets/Empleado.jpg'
-
+// import empleado from '../assets/Empleado.jpg'
+  import camion from '../assets/Camion.jpg'
+  import camion2 from '../assets/Camion2.jpg'
+  import camiones from '../assets/Camiones.jpg'
+  // import ImageGallery from 'react-image-gallery'
+  // import "react-image-gallery/styles/css/image-gallery.css"
+  // import '../Header.css'
+  
 export const Header = () => {
+
+  // const images = [
+  //   {
+  //     original: camion,
+      
+  //   },
+  //   {
+  //     original: camiones
+  //   },
+  //   {
+  //     original: camion2
+  //   }
+  // ]
+
     return (
-      // <div
-      //   className="relative w-full h-screen bg-cover  "
-      //   style={{ backgroundImage:  `url(${empleado})`}}
-      // >
-      //   <div className="absolute inset-0 bg-gradient-to-t from-azul to-transparent"></div>
-      //   {/* Contenido adicional sobre la imagen y gradiente */}
-      //   <div className="relative z-10 text-white p-4 bg-lime-300">
-      //     <h1 className="text-3xl font-bold">Transporte seguro <br /> y eficiente</h1>
-      //     <p className="text-lg">Tenemos más de 25 años de experiencia. Somos una pyme, y nuestra flota cuenta con con chasis y semis tipo saider. Llevamos volumen y poco peso. Contamos con chasis de 5 y 10 mil kilos y semis de 15 y 22 mil kilos.</p>
-      //   </div>
-      // </div>
+    
       <>
- <div className=" relative w-full h-screen overflow-hidden">
+ {/* <div className=" relative w-full h-screen overflow-hidden">
   <img
     src={empleado}
     alt=""
@@ -27,13 +37,16 @@ export const Header = () => {
     <p className="text-sm sm:text-lg w-2/3 mt-5 xl:w-[40rem]">Tenemos más de 25 años de experiencia. Somos una pyme, y nuestra flota cuenta con con chasis y semis tipo saider. Llevamos volumen y poco peso. Contamos con chasis de 5 y 10 mil kilos y semis de 15 y 22 mil kilos.</p>
 
   </div>
-</div>
+</div> */}
 
-
-
-
-
-
+{/* <div className="custom-gallery w-screen h-screen bg-red-200"> 
+  <ImageGallery items={images}
+  showFullscreenButton={false}
+  showPlayButton={false}
+  showThumbnails={false}
+  additionalClass="custom-gallery"  
+  />
+</div> */}
 
       
       </>
