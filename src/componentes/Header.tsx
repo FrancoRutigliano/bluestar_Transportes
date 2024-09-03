@@ -39,12 +39,12 @@ export const Header = () => {
   </div>
 </div> */}
 
-<div className="custom-gallery w-screen  bg-red-200"> 
+<div className="custom-gallery lg:h-screen bg-red-200"> 
   <ImageGallery items={images}
   showFullscreenButton={false}
   showPlayButton={false}
   showThumbnails={false}
-  additionalClass="custom-gallery"  
+  additionalClass="fullscreen-gallery"  
   />
 </div>
 
