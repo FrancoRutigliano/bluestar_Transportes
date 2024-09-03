@@ -40,10 +40,10 @@ export const Header = () => {
 </div> */}
 
 <div className="custom-gallery lg:h-screen position-relative">
-  <div className='absolute bottom-20 left-20 z-50 '>
-
-  <h1 className='  lg:text-[4.8rem] text-white font-bold leading-snug sm:leading-normal xl:leading-normal' style={{ textShadow: '1px 1px 30px black' }}>Transporte <span className='block sm:inline'> seguro </span>  <span className='sm:block'>y eficiente</span></h1> 
-  <p className="text-sm sm:text-lg lg:text-2xl w-2/3 xl:w-[40rem] text-white">Tenemos más de 25 años de experiencia. Somos una pyme, y nuestra flota cuenta con con chasis y semis tipo saider. Llevamos volumen y poco peso. Contamos con chasis de 5 y 10 mil kilos y semis de 15 y 22 mil kilos.</p>
+  <div className='absolute  bottom-10 lg:bottom-20 left-10 lg:left-20 z-50 '>
+  
+  <h1 className=' text-xs lg:text-[4.8rem] text-white font-bold leading-snug sm:leading-normal xl:leading-normal' style={{ textShadow: '1px 1px 30px black' }}>Transporte <span className='block sm:inline'> seguro </span>  <span className='sm:block'>y eficiente</span></h1> 
+  <p className="text-xs sm:text-lg lg:text-2xl w-2/3 xl:w-[40rem] text-white">Tenemos más de 25 años de experiencia. Somos una pyme, y nuestra flota cuenta con con chasis y semis tipo saider. Llevamos volumen y poco peso. Contamos con chasis de 5 y 10 mil kilos y semis de 15 y 22 mil kilos.</p>
   </div>
   <ImageGallery items={images}
   showFullscreenButton={false}
