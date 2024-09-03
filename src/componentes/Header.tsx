@@ -44,8 +44,10 @@ export const Header = () => {
   showFullscreenButton={false}
   showPlayButton={false}
   showThumbnails={false}
-  additionalClass="fullscreen-gallery"  
-  />
+   additionalClass="custom-gallery"
+  // autoPlay={true}
+/>
+<div className="absolute bottom-0 left-0 w-full h-1/2 bg-gradient-to-t from-azul to-transparent pointer-events-none"></div>
 </div>
 
       
