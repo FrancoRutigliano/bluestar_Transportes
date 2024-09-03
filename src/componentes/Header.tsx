@@ -2,24 +2,24 @@
   import camion from '../assets/Camion.jpg'
   import camion2 from '../assets/Camion2.jpg'
   import camiones from '../assets/Camiones.jpg'
-  // import ImageGallery from 'react-image-gallery'
-  // import "react-image-gallery/styles/css/image-gallery.css"
-  // import '../Header.css'
+  import ImageGallery from 'react-image-gallery'
+  import "react-image-gallery/styles/css/image-gallery.css"
+  import '../Header.css'
   
 export const Header = () => {
 
-  // const images = [
-  //   {
-  //     original: camion,
+  const images = [
+    {
+      original: camion,
       
-  //   },
-  //   {
-  //     original: camiones
-  //   },
-  //   {
-  //     original: camion2
-  //   }
-  // ]
+    },
+    {
+      original: camiones
+    },
+    {
+      original: camion2
+    }
+  ]
 
     return (
     
@@ -39,14 +39,14 @@ export const Header = () => {
   </div>
 </div> */}
 
-{/* <div className="custom-gallery w-screen h-screen bg-red-200"> 
+<div className="custom-gallery w-screen  bg-red-200"> 
   <ImageGallery items={images}
   showFullscreenButton={false}
   showPlayButton={false}
   showThumbnails={false}
   additionalClass="custom-gallery"  
   />
-</div> */}
+</div>
 
       
       </>
