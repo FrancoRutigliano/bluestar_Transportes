@@ -39,7 +39,12 @@ export const Header = () => {
   </div>
 </div> */}
 
-<div className="custom-gallery lg:h-screen bg-red-200"> 
+<div className="custom-gallery lg:h-screen position-relative">
+  <div className='absolute bottom-20 left-20 z-50 '>
+
+  <h1 className='  lg:text-[4.8rem] text-white font-bold leading-snug sm:leading-normal xl:leading-normal' style={{ textShadow: '1px 1px 30px black' }}>Transporte <span className='block sm:inline'> seguro </span>  <span className='sm:block'>y eficiente</span></h1> 
+  <p className="text-sm sm:text-lg lg:text-2xl w-2/3 xl:w-[40rem] text-white">Tenemos más de 25 años de experiencia. Somos una pyme, y nuestra flota cuenta con con chasis y semis tipo saider. Llevamos volumen y poco peso. Contamos con chasis de 5 y 10 mil kilos y semis de 15 y 22 mil kilos.</p>
+  </div>
   <ImageGallery items={images}
   showFullscreenButton={false}
   showPlayButton={false}
@@ -47,6 +52,7 @@ export const Header = () => {
    additionalClass="custom-gallery"
   // autoPlay={true}
 />
+
 <div className="absolute bottom-0 left-0 w-full h-1/2 bg-gradient-to-t from-azul to-transparent pointer-events-none"></div>
 </div>
 
