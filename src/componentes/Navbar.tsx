@@ -2,7 +2,7 @@ import icon from '../assets/icons/bluestar.svg'
 
 export const Navbar = () => {
   return (
-    <nav className='flex justify-between bg-white/20 fixed top-0 left-0 w-full z-50 '>
+    <nav className='flex justify-between bg-white/10 fixed top-0 left-0 w-full z-50 '>
         <div className='pb-1'>
             <img src={icon} alt="BLUE STAR" className='w-20 ml-20  ' />
         </div>
