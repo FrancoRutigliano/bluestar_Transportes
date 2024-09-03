@@ -6,8 +6,8 @@ export const Navbar = () => {
         <div className='pb-1'>
             <img src={icon} alt="BLUE STAR" className='w-10 ml-10 lg:w-20 lg:ml-20  ' />
         </div>
-        <div className='flex w-[17rem] justify-center items-center lg:w-2/3 mr-10  bg-red-200  '>
-            <ul className=' bg-sky-200 flex w-full items-center lg:w-2/3 justify-evenly text-white font-inter font-medium lg:ml-44 text-xs lg:text-lg'>
+        <div className='flex w-[17rem] justify-center items-center lg:w-2/3 mr-10   '>
+            <ul className='  flex w-full items-center lg:w-2/3 justify-evenly text-white font-inter font-medium lg:ml-44 text-xs lg:text-lg'>
                 <li><a href="#">Inicio</a></li>
                 <li><a href="#">Clientes</a></li>
                 <li><a href="#">Nosotros</a></li>
