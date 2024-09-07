@@ -51,8 +51,8 @@ export const Header = () => {
   showThumbnails={false}
   showNav={false}
   showBullets={true}
-   additionalClass="custom-gallery"
   autoPlay={true}
+  additionalClass="custom-gallery"
 />
 
 <div className="absolute bottom-0 left-0 w-full h-1/2 bg-gradient-to-t from-azul to-transparent pointer-events-none"></div>
