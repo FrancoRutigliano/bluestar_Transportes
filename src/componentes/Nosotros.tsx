@@ -2,8 +2,8 @@ import camionero from '../assets/camionero.svg'
 export const Nosotros = () => {
   return (
     <section className='bg-azul h-screen'>
-        <h1 className='text-center text-white text-5xl p-12 font-medium'>Quiénes Somos</h1>
-    <div className=" flex">
+        <h1 className='text-center text-white text-5xl p-16 font-medium'>Quiénes Somos</h1>
+    <div className=" flex ">
         <div className=' w-1/2 flex justify-center items-center px-12'>
             <img src={camionero} alt="camionero" />
         </div>

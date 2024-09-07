@@ -8,7 +8,7 @@ import hours from '../assets/icons/24hs.svg'
 export const WorkWithUs = () => {
   return (
         <section className='bg-azul text-white w-full lg:p-20 '>
-            <h1 className='text-center lg:text-5xl  lg:pt-20 font-medium  '>Trabajá con nosotros</h1>
+            <h1 className='text-center lg:text-5xl  lg:pt-44 font-medium  '>Trabajá con nosotros</h1>
         <article className='grid grid-cols-3 gap-4 mx-10 mt-20'>
 
         <div className='flex flex-col items-center justify-center text-center'>
