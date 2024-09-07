@@ -6,6 +6,7 @@ import { Clients } from "../componentes/Clients"
 import { Packaging } from "../componentes/Packaging"
 import { Argentina } from "../componentes/Argentina"
 import { WorkWithUs } from "../componentes/WorkWithUs"
+import { Nosotros } from "../componentes/Nosotros"
 
 export const Home = () => {
   return (
@@ -16,6 +17,7 @@ export const Home = () => {
         <Clients/>
         <Packaging/>
         <Argentina/>
+        <Nosotros/>
         <WorkWithUs/>
         {/* <Footer/> */}
     </>
