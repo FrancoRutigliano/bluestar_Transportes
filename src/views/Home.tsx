@@ -8,6 +8,7 @@ import { Argentina } from "../componentes/Argentina"
 import { WorkWithUs } from "../componentes/WorkWithUs"
 import { Nosotros } from "../componentes/Nosotros"
 import { Location } from "../componentes/Location"
+import { Contacto } from "../componentes/Contacto"
 
 export const Home = () => {
   return (
@@ -21,7 +22,8 @@ export const Home = () => {
         <Nosotros/>
         <WorkWithUs/>
         <Location/>
-        {/* <Footer/> */}
+        <Contacto/>        
+
     </>
   )
 }
