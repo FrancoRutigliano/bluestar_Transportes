@@ -14,7 +14,7 @@ export const Location = () => {
         <div className=" w-1/2  flex justify-center items-center" >
       <div  >
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d210147.47497098404!2d-58.59811178078391!3d-34.61543034802167!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca3b4ef90cbd%3A0xa0b3812e88e88e87!2sBuenos%20Aires%2C%20Cdad.%20Aut%C3%B3noma%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1725806179588!5m2!1ses-419!2sar"
+          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d62600.82894196237!2d-58.85175196628895!3d-34.450858566636896!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bc993fb6f5b121%3A0x3946b374735be9b3!2sDel%20Viso%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1726420162481!5m2!1ses-419!2sar"
           width="600"
           height="350"
           style={{ border: 0 }} // Aquí es un objeto, no una cadena
@@ -22,6 +22,8 @@ export const Location = () => {
           loading="lazy"
           referrerPolicy="no-referrer-when-downgrade"
           ></iframe>
+          {/* <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d62600.82894196237!2d-58.85175196628895!3d-34.450858566636896!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bc993fb6f5b121%3A0x3946b374735be9b3!2sDel%20Viso%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1726420162481!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> */}
+          
       </div>
           </div>
           </article>
