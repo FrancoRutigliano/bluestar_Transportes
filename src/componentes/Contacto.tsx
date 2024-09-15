@@ -41,7 +41,7 @@ export const Contacto = () => {
 
 
         <h1 className='w-full text-white lg:text-5xl font-medium mb-5'>Contacto</h1>
-        <form action="#" className='bg-white w-full h-2/3  rounded-xl p-5 flex flex-col '>
+        <form action="#" className='bg-white w-full h-2/3  rounded-xl p-8 flex flex-col '>
           <label htmlFor="nombre"></label>
           <input type="text" id='nombre' className='bg-gris  rounded-xl  placeholder:text-azul lg:text-lg p-5' placeholder='Nombre y Apellido' />
 
@@ -53,7 +53,7 @@ export const Contacto = () => {
             <label htmlFor="comentarios"></label>
             <textarea id="comentarios" name="comentarios" placeholder="Tu mensaje" className='bg-gris p-5 rounded-xl placeholder:text-azul lg:text-lg' ></textarea>
 
-      <button className='bg-azul text-white w-full rounded-xl py-5 font-medium lg:text-2xl'>ENVIAR</button>
+      <button className='bg-azul text-white w-full rounded-xl py-5 font-medium lg:text-2xl mt-5'>ENVIAR</button>
         </form>
       </div>
 
